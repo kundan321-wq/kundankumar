@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kundan Kumar's personal portfolio website">
+<title>Kundan Kumar | Portfolio</title>
+<style>
+:root{--primary:#172554;--accent:#f59e0b;--bg:#f4f7fc;--white:#fff;--text:#334155;--muted:#64748b}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+header{background:linear-gradient(135deg,#172554,#2563eb);color:white;padding:55px 20px;text-align:center}
+header h1{font-size:clamp(30px,5vw,46px);margin-bottom:8px}
+header p{color:#dbeafe;font-size:17px}
+nav{background:white;padding:15px 10px;display:flex;justify-content:center;flex-wrap:wrap;gap:10px;position:sticky;top:0;z-index:10;box-shadow:0 3px 12px #0000000d}
+nav a{color:var(--primary);text-decoration:none;font-weight:bold;padding:7px 12px;border-radius:6px;transition:.2s}
+nav a:hover{background:#eff6ff;color:#2563eb}
+.hero{text-align:center;background:white;padding:50px 20px}
+.profile-pic{width:145px;height:145px;border-radius:50%;border:5px solid #dbeafe;object-fit:cover;margin-bottom:18px}
+.hero h2{color:var(--primary);font-size:clamp(25px,4vw,34px);margin-bottom:8px}
+.hero p{color:var(--muted);margin-bottom:18px}
+.container{width:min(900px,92%);margin:auto}
+section{padding:42px 0 5px}
+section h2{text-align:center;color:var(--primary);margin-bottom:22px;font-size:27px}
+.card{background:var(--white);padding:25px;margin-bottom:20px;border-radius:14px;border:1px solid #e2e8f0;box-shadow:0 5px 20px #0f172a08}
+.card h3{color:var(--primary);margin-bottom:10px}
+.btn{display:inline-block;padding:11px 21px;margin:5px;border-radius:8px;text-decoration:none;font-weight:bold;color:white;background:var(--primary);transition:.2s}
+.btn:hover{transform:translateY(-2px);opacity:.9}
+.btn-accent{background:var(--accent);color:#172554}
+.instagram{background:#c13584}.whatsapp{background:#16a34a}.email{background:#475569}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:white}
+th,td{text-align:left;padding:14px;border-bottom:1px solid #e2e8f0}
+th{background:var(--primary);color:white}
+tr:hover td{background:#f8fafc}
+.skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.skill{background:#eff6ff;color:#1d4ed8;border:1px solid #dbeafe;padding:9px 14px;border-radius:20px;font-weight:bold}
+.social-links{text-align:center}
+.contact-info{text-align:center;margin-bottom:15px}
+.contact-info a{color:#2563eb;text-decoration:none}
+footer{background:var(--primary);color:white;text-align:center;padding:25px 15px;margin-top:45px}
+footer p+p{color:#cbd5e1;font-size:14px}
+@media(max-width:600px){header{padding:38px 15px}nav{gap:3px;padding:10px 5px}nav a{padding:7px;font-size:14px}.card{padding:18px}th,td{padding:10px;font-size:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>Kundan Kumar</h1>
+<p>BBA Student | Aspiring Business Professional</p>
+</header>
+<nav aria-label="Main navigation">
+<a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</nav>
+<main>
+<div class="hero" id="home">
+<img src="https://scontent.cdninstagram.com/v/t51.82787-19/721464221_18103820398844784_5873483598408266767_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=EG7aFDk_qX8Q7kNvwFhf9bE&_nc_oc=AdpX0iPCYUubTVm0bp9EAbBJLS_Z8ePmeHD_jUte7oRKMEksxPoFq2V1fMbbW8ZgVET6FG5wPlThjFsjMCCF_fVt&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=tSeafxPCd0qX0UVxCpE9Ow&_nc_ss=7a689&oh=00_AQN0tbudWjvzRLzItLeh0nMTuE6Ix3OluGa3Tk2eEEdR8A&oe=6ACF8B90" alt="Kundan Kumar's profile photo" class="profile-pic" onerror="this.onerror=null;this.src='profile.jpg';">
+<h2>Hello, I'm Kundan Kumar!</h2>
+<p>BBA Student | Business, Computers &amp; Technology</p>
+<a href="#about" class="btn btn-accent">Discover My Profile</a>
+<a href="#contact" class="btn">Contact Me</a>
+</div>
+<div class="container">
+<section id="about">
+<h2>About Me</h2>
+<div class="card"><p>Hello! My name is Kundan Kumar. I am currently pursuing a Bachelor of Business Administration (BBA). I am interested in business management, computers and technology. I enjoy learning new skills, improving my knowledge and preparing for a successful professional career.</p></div>
+</section>
+<section id="education">
+<h2>Education &amp; Qualifications</h2>
+<div class="card table-wrap">
+<table>
+<thead><tr><th>Qualification</th><th>Board / Field</th><th>Result / Status</th></tr></thead>
+<tbody>
+<tr><td>Class 10</td><td>UP Board</td><td>88.88%</td></tr>
+<tr><td>Class 12</td><td>UP Board</td><td>58%</td></tr>
+<tr><td>Bachelor's Degree</td><td>Business Administration (BBA)</td><td>Currently pursuing</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="skills">
+<h2>My Skills</h2>
+<div class="card"><div class="skills">
+<span class="skill">Communication</span><span class="skill">Computer Fundamentals</span><span class="skill">Web Development</span><span class="skill">HTML &amp; CSS</span><span class="skill">Problem Solving</span>
+</div></div>
+</section>
+<section id="contact">
+<h2>Let's Connect</h2>
+<div class="card social-links">
+<p class="contact-info"><strong>Mobile:</strong> <a href="tel:+918121594731">+91 81215 94731</a></p>
+<p class="contact-info"><strong>Email:</strong> <a href="mailto:kundan12159@gmail.com">kundan12159@gmail.com</a></p>
+<a class="btn instagram" href="https://www.instagram.com/kundan552653/" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a class="btn whatsapp" href="https://wa.me/918121594731" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+<a class="btn email" href="mailto:kundan12159@gmail.com">Email Me</a>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<p>&copy; 2026 Kundan Kumar. All rights reserved.</p>
+<p>Personal Portfolio | Designed with HTML &amp; CSS</p>
+</footer>
+</body>
+</html>
